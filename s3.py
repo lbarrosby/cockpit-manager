@@ -13,7 +13,7 @@ def listar_buckets_s3(profile_name='cockpit'):
         buckets_details.append(bucket_details)
     return buckets_details
 
-# Exemplo de uso
+
 buckets = listar_buckets_s3()
 for bucket in buckets:
     print(bucket)
