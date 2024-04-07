@@ -12,7 +12,7 @@ def listar_clusters_eks(profile_name='cockpit'):
         clusters_details.append(cluster_details)
     return clusters_details
 
-# Exemplo de uso
+
 clusters = listar_clusters_eks()
 for cluster in clusters:
     print(cluster)
